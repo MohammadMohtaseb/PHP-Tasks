@@ -63,9 +63,10 @@
   echo '<br> <br>';
   echo'Q10: <br> <br>';
 
-  $string3 = 'Twinkle twinkle, little star.';
-  $Array = explode(' ',$string3);
-  echo var_dump($Array);
+  $stringA='Twinkle twinkle, little star.';
+$Array=explode(' ', $stringA);
+echo var_dump($Array);
+
   echo '<br> <br>';
   echo 'Q11: <br><br>';
   $char = 'A';
